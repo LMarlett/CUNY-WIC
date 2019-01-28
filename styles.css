@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
 
 
  a {
@@ -42,10 +44,11 @@ input, textarea {
 }
 
 h2.header{
-    font-family: Sabon LT W01, sans-serif;
+    font-family: EB Garamond, sans-serif;
     font-size: 24px;
     line-height: 1;
     letter-spacing: 5px;
+
 }
 
 headerTitle{
@@ -76,24 +79,28 @@ textarea {
 }
 
 
+logo_centered{
+ 
+}
+
 
 
 @font-face {
-    font-family: Futura LT W01;
+    font-family: EB Garamond;
     font-display: swap;
-    src: url(https://www.huber.li/app/themes/towa-theme/dist/assets/fonts/e2b9cbeb-fa8e-41cd-8a6a-46044b29ba52.3d08300.woff) format("woff")
+    src: url(https://fonts.googleapis.com/css?family=EB+Garamond)
 }
 
 @font-face {
-    font-family: Sabon LT W01;
+    font-family: EB Garamond;
     font-display: swap;
-    src: url(https://www.huber.li/app/themes/towa-theme/dist/assets/fonts/d4fc221d-b8b1-4903-8319-0c33b6309574.d9f9542.woff) format("woff")
+    src: url(https://fonts.googleapis.com/css?family=EB+Garamond)
 }
 
 @font-face {
-    font-family: Sabon LT W01;
+    font-family: EB Garamond;
     font-style: italic;
-    src: url(https://www.huber.li/app/themes/towa-theme/dist/assets/fonts/56ec1e2d-8bae-49c9-b161-be6c87a22289.2119f68.woff) format("woff")
+    src: url(https://fonts.googleapis.com/css?family=EB+Garamond)
 }
 
 @font-face {
@@ -108,7 +115,7 @@ html {
 }
 
 body {
-    font-family: Sabon LT W01, sans-serif;
+    font-family: EB Garamond, sans-serif;
     font-size: 16px;
     line-height: 2;
     color: #1d2930;
@@ -963,7 +970,7 @@ body {
 
 .Skyline__desc {
     margin: 10px auto 0;
-    font-family: Sabon LT W01, sans-serif;
+    font-family: EB Garamond, sans-serif;
     font-size: 16px;
     line-height: 2;
     color: #fff;
@@ -1000,7 +1007,7 @@ body {
 }
 
 .Skyline__title {
-    font-family: Sabon LT W01, sans-serif;
+    font-family: EB Garamond, sans-serif;
     font-size: 24px;
     line-height: 1.25;
     letter-spacing: 6px;
@@ -1094,7 +1101,7 @@ body {
 
 .Skyline__explore {
     top: 10px;
-    font-family: Sabon LT W01, sans-serif;
+    font-family: EB Garamond, sans-serif;
     font-size: 14px;
     font-style: italic;
     letter-spacing: 2px
@@ -1304,7 +1311,7 @@ body {
 }
 
 .SkylineProduct__title {
-    font-family: Sabon LT W01, sans-serif;
+    font-family: EB Garamond, sans-serif;
     font-size: 24px;
     line-height: 1.1;
     letter-spacing: 6px;
@@ -1336,7 +1343,7 @@ body {
 
 .SkylineProduct__desc {
     margin-top: 20px;
-    font-family: Sabon LT W01, sans-serif;
+    font-family: EB Garamond, sans-serif;
     font-size: 16px;
     line-height: 2;
     color: #1d2930;
@@ -1352,7 +1359,7 @@ body {
 
 .SkylineProduct__price {
     margin: 20px 0;
-    font-family: Sabon LT W01, sans-serif;
+    font-family: EB Garamond, sans-serif;
     font-size: 22px;
     line-height: 1.4;
     font-weight: 600;
@@ -2001,7 +2008,7 @@ background-position-x: -100;
 }
 
 .TwoColumnSlider__title {
-    font-family: Sabon LT W01, sans-serif;
+    font-family: EB Garamond, sans-serif;
     font-size: 24px;
     line-height: 1.1;
     letter-spacing: 6px;
@@ -2059,7 +2066,7 @@ background-position-x: -100;
 }
 
 .TwoColumnSlider__text {
-    font-family: Sabon LT W01, sans-serif;
+    font-family: EB Garamond, sans-serif;
     font-size: 17px;
     line-height: 2;
     color: #1d2930 !important;
@@ -2161,7 +2168,7 @@ background-position-x: -100;
         }
 
         .buttonText{
-            font-family: Sabon LT W01, sans-serif;
+            font-family: EB Garamond, sans-serif;
             font-size: 24px;
             line-height: 1.1;
             letter-spacing: 6px;
