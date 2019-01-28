@@ -1,25 +1,204 @@
 <!doctype html>
 <html>
 <head>
-<title>Our Funky HTML Page</title>
-<meta name="description" content="Our first page">
-<meta name="keywords" content="html tutorial template">
-</head>
-<body>
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_xclick">
-        <input type="hidden" name="business" value="sscoobygang@aol.com">
-        <input type="hidden" name="lc" value="US">
-        <input type="hidden" name="item_name" value="CUNY-WIC">
-        <input type="hidden" name="amount" value="15.00">
-        <input type="hidden" name="currency_code" value="USD">
-        <input type="hidden" name="button_subtype" value="services">
-        <input type="hidden" name="no_note" value="0">
-        <input type="hidden" name="bn" value="PP-BuyNowBF:btn_paynowCC_LG.gif:NonHostedGuest">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>
-        
-        </body>
-</html>
+<title>Registration</title>
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- bootstrap mobile -->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- jquery -->
+<script src="js/jquery-3.3.1.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- bootstrap styling -->
+<link rel="stylesheet" href="./bootstrap-4.2.1-dist/css/bootstrap.min.css">
+<script src="./bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- uikit styling -->
+<link rel="stylesheet" href="js/uikit-3/css/uikit.min.css" />
+<script src="js/uikit-3/js/uikit.min.js"></script>
+<script src="js/uikit-3/js/uikit-icons.min.js"></script>
+<!-- stylesheet -->
+<link rel="stylesheet" href="./styles.css">
+<!-- tab icon -->
+<link rel="icon" href="./public/logos/CUNY_Logo_White_RGB.png">
 
+
+
+</head>
+
+        <body>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light Header__menu">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                                <div class="logo_centered">
+                                        <img src='./public/logos/Asset 2.svg' class="Header__logo" alt="CUNY Logo">
+                                        <h2 class="headerTitle header"> &nbsp; Celebrates Women in Computing</h2>
+                                </div>
+
+                        <div class="collapse navbar-collapse" id="navbarNav">
+
+
+                                <ul class="navbar-nav Header__links">
+                                <li class="nav-item active">
+                                <a class="nav-link Header__link" href="./index.html">Home</a>
+                                </li>
+                                <li class="nav-item active">
+                                <a class="nav-link Header__link" href="program.html">Schedule</a>
+                                </li>
+                                <li class="nav-item active">
+                                <a class="nav-link Header__link" href="./participate.html">Participate</a>
+                                </li>
+                                  <li class="nav-item active">
+                                <a class="nav-link Header__link" href="./registration.html">Registration</a>
+                                </li>
+                                 <li class="nav-item active">
+                                <a class="nav-link Header__link" href="./organizers.html">Organizers</a>
+                                </li>
+                                <li class="nav-item active" >
+                                <a class="nav-link Header__link" href="./sponsors.html">Sponsors</a>
+                                </li>
+                                <li class="nav-item active">
+                                <a class="nav-link Header__link" href="./contact.html">Contact</a>
+                                </li>
+                                </ul>
+                        </div>
+                </nav>
+
+
+ 
+        <section class="Hero Hero--bigger Hero--video" data-component="Hero">
+
+
+                <div class="Hero__wrapper">
+                                        <picture class="Hero__picture "> 
+                                                        <img class="Hero__image initial lazyloading" src="./public/images/New-York.png" alt="" data-was-processed="true"> 
+                                                </picture>
+                                                <div class="Hero__overlay"></div><div class="Hero__inner">
+                                                        <h2 class="Hero__title">Register Here</h2>
+                                                        <p class="Hero__desc">CUNY Celebrates Women in Computing - CUNYCWiC 2019<br>Microsoft NYC, May 10, 2019</p> 
+                                                </div>
+                                               
+                                        </div>
+                                </section>
+
+                                <div class=imageBg>
+                                        <div class="row">
+                                        <div class="col-4">
+                                            <br>
+                                            <br>
+                                                <h2 class="whiteText header center middle">
+                                                        CONFERENCE PRICING
+                                                        <br>
+                                                        <a class="btn btn-default btn-lg btn-custom-lg btnText TeaserSlider__subtitle" role="button" href="#paypal">Buy Here</a>
+
+                                                    </h2> 
+
+                                        </div>
+                                        <div class="col-8">
+                                        <div class="whiteText header center middle">
+                                            <br>
+                                            <br>
+                                                <p><strong>Students</strong><br>
+                                                    $15 early and regular registration
+                                                   <br>
+                                                    * Scholarship is available for student presenters and <br>
+                                                    student helpers at the conference.  <br>
+                                                    Institutions are encouraged to sponsor their students.
+                                                </p>
+                                                    <p><strong>Others including faculty</strong><br>
+                                                        $30 early and regular registration</p>
+                                                 
+                                         </div>
+                                        </div>
+                                        </div>
+                                </div>
+                      </div>
+        
+
+ 
+                <div class="TeaserSlider__wrapper ">
+                        <div class="TeaserSlider__inner">
+                                <div class="TeaserSlider__left">
+                                         <h2 class="TeaserSlider__title">REGISTRATION FEES INCLUDE</h2>
+                                </div>
+                                                  <ul class="TeaserSlider__subtitleUL TeaserSlider__text--top">
+                                                        <li>Needs input</li>
+                                                        <li>Needs input</li>
+                                                        <li>Needs input</li>
+                                                        <li>Needs input</li>
+                                                       
+                                                </ul>
+                                                </div>
+  
+                        </div>
+
+
+                        <a name="paypal"></a> 
+
+                        <div class="center">
+ 
+                                <h1 class="buttonText whiteText">CONFERENCE REGISTRATION</h1>
+
+                                <h2 class="whiteText TeaserSlider__subtitle center">Use the Paypal Buttons below to register</h2>
+
+                                <br>
+
+                                <h2 class="buttonText whiteText">Student Registration</h2> 
+                                <p>do not use these they are not the correct email</p>
+                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                    <input type="hidden" name="cmd" value="_xclick">
+                                    <input type="hidden" name="business" value="sscoobygang@aol.com">
+                                    <input type="hidden" name="lc" value="US">
+                                    <input type="hidden" name="item_name" value="CUNY-WIC">
+                                    <input type="hidden" name="amount" value="15.00">
+                                    <input type="hidden" name="currency_code" value="USD">
+                                    <input type="hidden" name="button_subtype" value="services">
+                                    <input type="hidden" name="no_note" value="0">
+                                    <input type="hidden" name="bn" value="PP-BuyNowBF:btn_paynowCC_LG.gif:NonHostedGuest">
+                                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                    </form>
+                                
+
+                                     
+                                <h2 class="buttonText whiteText">Non-student &amp; Faculty Registration</h2> 
+                                <p>do not use these they are not the correct email</p>
+                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                    <input type="hidden" name="cmd" value="_xclick">
+                                    <input type="hidden" name="business" value="sscoobygang@aol.com">
+                                    <input type="hidden" name="lc" value="US">
+                                    <input type="hidden" name="item_name" value="CUNY-WIC">
+                                    <input type="hidden" name="amount" value="30.00">
+                                    <input type="hidden" name="currency_code" value="USD">
+                                    <input type="hidden" name="button_subtype" value="services">
+                                    <input type="hidden" name="no_note" value="0">
+                                    <input type="hidden" name="bn" value="PP-BuyNowBF:btn_paynowCC_LG.gif:NonHostedGuest">
+                                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                    </form>
+                                
+                                       
+                        
+
+                         </div>            
+        
+ 
+
+<div class="spacer2"></div>
+ 
+</body>
+
+<footer>
+                 <hr>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light Footer__menu">                 
+                       <a href="https://twitter.com/cuny" class="Footer__link Footer__link--social" target="_blank">Twitter</a> 
+        
+                       <a href="https://www.facebook.com/CUNYedu" class="Footer__link Footer__link--social" target="_blank">Facebook</a> 
+                       <a href="https://www.linkedin.com/school/city-university-of-new-york/" class="Footer__link Footer__link--social" target="_blank">Linkedin</a> 
+                </nav>
+               </footer>
+
+</html>
