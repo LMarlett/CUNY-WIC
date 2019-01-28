@@ -46,8 +46,10 @@ input, textarea {
 h2.header{
     font-family: EB Garamond, sans-serif;
     font-size: 24px;
-    line-height: 1;
+    line-height: 76.89px;
     letter-spacing: 5px;
+    text-align: center;
+
 
 }
 
@@ -80,7 +82,7 @@ textarea {
 
 
 logo_centered{
- 
+ display: inline-block;
 }
 
 
@@ -101,13 +103,6 @@ logo_centered{
     font-family: EB Garamond;
     font-style: italic;
     src: url(https://fonts.googleapis.com/css?family=EB+Garamond)
-}
-
-@font-face {
-    font-family: iconfont;
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://www.huber.li/app/themes/towa-theme/dist/assets/fonts/iconfont.00b4fda.woff) format("woff")
 }
 
 html {
@@ -594,7 +589,7 @@ body {
 }
 
 .Header__menu {
-    width: 100%;
+    width: 100% !important;
     background-color: white !important;
     padding-left: 20px !important;
     padding-right: 20px !important;
@@ -636,8 +631,10 @@ body {
     display: none;
     font-size: 0; 
     float: left;
+ }
 
-
+h2.center{
+    vertical-align: middle;
 }
 
 @media (min-width:1280px) {
