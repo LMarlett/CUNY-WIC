@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 
-
+.citation{
+    font-family: EB Garamond, sans-serif;
+     float: right; 
+    font-size: 15px; 
+    color: #fcf5ed;
+    padding-left: 7px;
+    font-weight: 100;
+    opacity: .5;
+}
 
  a {
     display: inline-block;
@@ -127,6 +135,21 @@ body {
 .Footer {
     border-top: 1px solid rgba(29, 41, 48, .3);
     background-color:#1d2930 !important;
+}
+
+.footer__Img{
+    float: left !important;
+}
+
+.Footer__ImgText{
+     font-family: Futura LT W01, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 1.2;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center
 }
 
 .Footer__addresses {
@@ -1891,12 +1914,12 @@ background-position-x: -100;
 
 
 .TwoColumnSlider__wrapper {
-     height: auto;
-     padding: 60px 0 140px;
-     vertical-align: middle;
-     background-color: #ffb3b3;
-     background-size: 500px 400px;
- }
+    height: auto;
+    padding: 60px 0 140px;
+    vertical-align: middle;
+    background-color: #ffb3b3;
+ 
+}
 
 @media (min-width:480px) {
     .TwoColumnSlider__wrapper {
@@ -1911,55 +1934,17 @@ background-position-x: -100;
     }
 }
 
-@media (min-width:1024px) {
-    .TwoColumnSlider__wrapper {
-        padding: 270px 0 200px;
-        background-position: top -250px center
-    }
-}
-
-@media (min-width:1440px) {
-    .TwoColumnSlider__wrapper {
-        padding: 380px 0 250px
-    }
-}
-
-@media (min-width:1680px) {
-    .TwoColumnSlider__wrapper {
-        padding: 450px 0 300px;
-        background-position: top -320px center;
-        background-size: 1100px
-    }
-}
-
 .TwoColumnSlider__inner {
-    width: 100%;
-    padding-left: 20px;
+    /* width: 100%; */
+    /* padding-left: 20px;
     padding-right: 20px;
-    padding-top: 30px;
+    padding-top: 30px; */
 }
 
 @media (min-width:768px) {
     .TwoColumnSlider__inner {
         padding-left: 30px;
         padding-right: 30px;
-    }
-}
-
-@media (min-width:1280px) {
-    .TwoColumnSlider__inner {
-        padding-left: 30px;
-        padding-right: 30px
-    }
-}
-
-@media (min-width:1440px) {
-    .TwoColumnSlider__inner {
-        width: 1400px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 0;
-        padding-right: 0
     }
 }
 
@@ -2043,7 +2028,6 @@ background-position-x: -100;
     color: black;
     letter-spacing: 2px;
     text-transform: uppercase;
-    text-align: center;
     text-align: left
 }
 
