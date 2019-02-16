@@ -210,7 +210,10 @@
                                         <br />
 
 <h1 class="buttonText whiteText" >
-                If you have any questions, please contact Boyan Kostadinov at bkostadinov@citytech.cuny.edu 
+ 
+
+                If you have any questions, please contact Boyan Kostadinov at
+                 <span style="color:#ffb3b3">bkostadinov@citytech.cuny.edu </span>
 </h1>
         </div>
 
@@ -246,6 +249,44 @@
                        </div>
                </nav>
        </footer>
+
+        <script type="text/javascript">
+                const aioemails = document.querySelectorAll('span');
+
+aioemails.forEach(email => {
+  email.addEventListener('click', () => {
+    const selection = window.getSelection();
+    const range = document.createRange();
+    range.selectNodeContents(email);
+    selection.removeAllRanges();
+    selection.addRange(range);
+
+    try {
+      document.execCommand('copy');
+      selection.removeAllRanges();
+
+      const original = email.textContent;
+      email.textContent = 'Copied to clipboard';
+      email.classList.add('success');
+
+      setTimeout(() => {
+        email.textContent = original;
+        email.classList.remove('success');
+      }, 1200);
+    } catch(e) {
+      const errorMsg = document.querySelector('.error-msg');
+      errorMsg.classList.add('show');
+
+      setTimeout(() => {
+        errorMsg.classList.remove('show');
+      }, 1200);
+    }
+  });
+});
+        </script>
+
+            
+                
 
 </html>
 
