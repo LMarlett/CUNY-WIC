@@ -801,6 +801,25 @@ h2.center{
     }
 }
 
+
+
+.Sponsor__wrapper {
+    height: 250px;
+}
+
+@media (min-width:1280px) {
+    .Skyline--bigger .Sponsor__wrapper {
+        height: calc(100vh - 160px)
+    }
+}
+
+@media (min-width:1440px) {
+    .Skyline--bigger .Sponsor__wrapper {
+        height: calc(100vh - 204px)
+    }
+}
+
+
 .Skyline {
     position: relative;
     color: #fff;
@@ -834,6 +853,9 @@ h2.center{
         height: calc(100vh - 204px)
     }
 }
+
+
+
 
 .Skyline--bigger .Skyline__image {
     width: auto
