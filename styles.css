@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 
+
+h2.center{
+    vertical-align: middle;
+}
 .citation{
     font-family: EB Garamond, sans-serif;
      float: right; 
@@ -660,11 +664,7 @@ body {
     float: left;
  }
 
-h2.center{
-    vertical-align: middle;
-}
-
-@media (min-width:1280px) {
+@media (min-width:60px) {
     .Header__logo {
         display: inline-block;
         width: 12.5%;
@@ -675,7 +675,7 @@ h2.center{
     }
 }
 
-@media (min-width:1680px) {
+@media (min-width:880px) {
     .Header__logo {
         width: 16.66667%;
         margin: 0 2.08333%
