@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400');
 
 
 h2.center{
     vertical-align: middle;
 }
 .citation{
-    font-family: EB Garamond, sans-serif;
+    font-family: 'EB Garamond', sans-serif;
      float: right; 
     font-size: 15px; 
     color: #fcf5ed;
@@ -62,7 +64,7 @@ input, textarea {
 }
 
 h2.header{
-    font-family: EB Garamond, sans-serif;
+    font-family: 'EB Garamond', sans-serif;
     font-size: 24px;
     line-height: 76.89px;
     letter-spacing: 5px;
@@ -104,19 +106,19 @@ logo_centered{
 
 
 @font-face {
-    font-family: EB Garamond;
+    font-family: 'EB Garamond';
     font-display: swap;
     src: url(https://fonts.googleapis.com/css?family=EB+Garamond)
 }
 
 @font-face {
-    font-family: EB Garamond;
+    font-family: 'EB Garamond';
     font-display: swap;
     src: url(https://fonts.googleapis.com/css?family=EB+Garamond)
 }
 
 @font-face {
-    font-family: EB Garamond;
+    font-family: 'EB Garamond';
     font-style: italic;
     src: url(https://fonts.googleapis.com/css?family=EB+Garamond)
 }
@@ -126,7 +128,7 @@ html {
 }
 
 body {
-    font-family: EB Garamond, sans-serif;
+    font-family: 'EB Garamond', sans-serif;
     font-size: 16px;
     line-height: 2;
     color: #1d2930;
@@ -1016,7 +1018,7 @@ body {
 
 .Skyline__desc {
     margin: 10px auto 0;
-    font-family: EB Garamond, sans-serif;
+    font-family: 'EB Garamond', sans-serif;
     font-size: 16px;
     line-height: 2;
     color: #fff;
@@ -1053,7 +1055,7 @@ body {
 }
 
 .Skyline__title {
-    font-family: EB Garamond, sans-serif;
+    font-family: 'EB Garamond', sans-serif;
     font-size: 24px;
     line-height: 1.25;
     letter-spacing: 6px;
@@ -1147,7 +1149,7 @@ body {
 
 .Skyline__explore {
     top: 10px;
-    font-family: EB Garamond, sans-serif;
+    font-family: 'EB Garamond', sans-serif;
     font-size: 14px;
     font-style: italic;
     letter-spacing: 2px
@@ -1357,7 +1359,7 @@ body {
 }
 
 .SkylineProduct__title {
-    font-family: EB Garamond, sans-serif;
+    font-family: 'EB Garamond', sans-serif;
     font-size: 24px;
     line-height: 1.1;
     letter-spacing: 6px;
@@ -1389,7 +1391,7 @@ body {
 
 .SkylineProduct__desc {
     margin-top: 20px;
-    font-family: EB Garamond, sans-serif;
+    font-family: 'EB Garamond', sans-serif;
     font-size: 16px;
     line-height: 2;
     color: #1d2930;
@@ -1405,7 +1407,7 @@ body {
 
 .SkylineProduct__price {
     margin: 20px 0;
-    font-family: EB Garamond, sans-serif;
+    font-family: 'EB Garamond', sans-serif;
     font-size: 22px;
     line-height: 1.4;
     font-weight: 600;
@@ -2053,7 +2055,7 @@ background-position-x: -100;
 }
 
 .TwoColumnSlider__title {
-    font-family: EB Garamond, sans-serif;
+    font-family: 'EB Garamond', sans-serif;
     font-size: 24px;
     line-height: 1.1;
     letter-spacing: 6px;
@@ -2110,7 +2112,7 @@ background-position-x: -100;
 }
 
 .TwoColumnSlider__text {
-    font-family: EB Garamond, sans-serif;
+    font-family: 'EB Garamond', sans-serif;
     font-size: 17px;
     line-height: 2;
     color: #1d2930 !important;
@@ -2175,6 +2177,15 @@ background-position-x: -100;
     height: 250px;
  }
 
+ .imageBg3{
+    background-image: url(./public/images/bg1.png);
+    background-size: 400 200;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+ }
+
 
 .seethroughBg{
           color: azure !important;
@@ -2235,7 +2246,7 @@ background-position-x: -100;
         }
 
         .buttonText{
-            font-family: EB Garamond, sans-serif;
+            font-family: 'EB Garamond', sans-serif;
             font-size: 24px;
             line-height: 1.1;
             letter-spacing: 6px;
@@ -2245,7 +2256,7 @@ background-position-x: -100;
          }
 
          .paypalText{
-            font-family: EB Garamond, sans-serif;
+            font-family: 'EB Garamond', sans-serif;
             font-size: 14px;
             line-height: 1.1;
             letter-spacing: 6px;
@@ -2253,3 +2264,128 @@ background-position-x: -100;
             text-align: center;
             text-transform: uppercase;
          }
+
+
+         /* organizers table */
+
+         .orgTitle {
+            font-family: 'EB Garamond', sans-serif;
+
+         }
+
+         .organizersTableHead{
+            width:8.5in;
+            border:solid white 1.0pt;
+             background: #ffb3b3;
+             font-family: 'EB Garamond', sans-serif;
+             font-size: 24px;
+             line-height: 50px;
+             letter-spacing: 5px;
+             color: #455158;
+             text-align: center;
+             
+            }
+
+         .tableHead {
+            font-family: 'EB Garamond', sans-serif;
+            font-size: 24px;
+            line-height: 76.89px;
+            letter-spacing: 5px;
+            color: #455158;
+            text-align: center;
+         }
+
+         .tableBodyTr {
+              border: solid 1.0pt white;
+
+         }
+
+         .tableBodyTd {
+             border: solid 1.0pt white;
+             padding: 1.0pt 1.0pt 1.0pt 3.0pt;
+             font-family: 'Source Sans Pro', sans-serif;
+             font-size: 16px;
+             color: white;
+         }
+
+        /* word table schedule */
+        /* Font Definitions */
+@font-face
+{font-family:Arial;
+panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+{font-family:"Courier New";
+panose-1:2 7 3 9 2 2 5 2 4 4;}
+@font-face
+{font-family:Wingdings;
+panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+{font-family:Mangal;
+panose-1:2 4 5 3 5 2 3 3 2 2;}
+@font-face
+{font-family:"Cambria Math";
+panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+{font-family:Calibri;
+panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+{font-family:"Palatino Linotype";
+panose-1:2 4 5 2 5 5 5 3 3 4;}
+@font-face
+{font-family:"MS Mincho";
+panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+{font-family:"MS Gothic";
+panose-1:2 11 6 9 7 2 5 8 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+{margin-top:0in;
+margin-right:0in;
+margin-bottom:10.0pt;
+margin-left:0in;
+line-height:115%;
+font-size:11.0pt;
+font-family:Calibri;}
+p
+{margin-right:0in;
+margin-left:0in;
+font-size:12.0pt;
+font-family:"Times New Roman";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+{margin-top:0in;
+margin-right:0in;
+margin-bottom:10.0pt;
+margin-left:.5in;
+line-height:115%;
+font-size:11.0pt;
+font-family:Calibri;}
+.MsoChpDefault
+{font-size:11.0pt;
+font-family:Calibri;}
+.MsoPapDefault
+{margin-bottom:8.0pt;
+line-height:107%;}
+
+@page WordSection1 {
+size:8.5in 11.0in;
+margin:.8in 1.0in .6in 1.0in;
+}
+div.WordSection1
+{
+    page:WordSection1;
+}
+/* List Definitions */
+ol
+{margin-bottom:0in;}
+ul
+{margin-bottom:0in;}
+
+.programTable{
+    width: 65%;
+     text-align: center;
+     padding: 45px;
+      background-image: url(./public/images/bg1.png);
+     background-repeat: no-repeat;
+    background-size: cover;
+    display:table;
+ }
